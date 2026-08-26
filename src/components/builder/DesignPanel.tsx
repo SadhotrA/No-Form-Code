@@ -345,7 +345,7 @@ export function DesignPanel() {
         onClose={() => setResetting(false)}
         onConfirm={() => updateTheme(DEFAULT_THEME)}
         title="Reset the theme?"
-        description="Every colour, font and layout tweak on this form goes back to the Formcraft default. Your fields and responses aren't touched, and you can undo this with ⌘Z."
+        description="Every colour, font and layout tweak on this form goes back to the NoFormCode default. Your fields and responses aren't touched, and you can undo this with ⌘Z."
         confirmLabel="Reset theme"
         tone="primary"
       />

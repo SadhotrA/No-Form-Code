@@ -66,7 +66,7 @@ if (!process.env.MONGODB_URI) {
       "",
       "  Fix it with:",
       "    cp .env.example .env.local",
-      "    # then set MONGODB_URI, e.g. mongodb://127.0.0.1:27017/formcraft",
+      "    # then set MONGODB_URI, e.g. mongodb://127.0.0.1:27017/noformcode",
       "",
     ].join("\n"),
   );
@@ -376,10 +376,10 @@ function buildSubmission(
 /*                                    seed                                     */
 /* -------------------------------------------------------------------------- */
 
-const ADMIN_EMAIL = (process.env.SEED_ADMIN_EMAIL || "admin@formcraft.dev")
+const ADMIN_EMAIL = (process.env.SEED_ADMIN_EMAIL || "admin@noformcode.dev")
   .trim()
   .toLowerCase();
-const ADMIN_PASSWORD = process.env.SEED_ADMIN_PASSWORD || "formcraft123";
+const ADMIN_PASSWORD = process.env.SEED_ADMIN_PASSWORD || "noformcode123";
 const ADMIN_NAME = process.env.SEED_ADMIN_NAME || "Demo Admin";
 
 const force = process.argv.slice(2).some((arg) => arg === "--force" || arg === "-f");

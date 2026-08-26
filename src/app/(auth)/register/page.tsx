@@ -5,7 +5,7 @@ import { getSessionUser } from "@/lib/auth";
 
 export const metadata: Metadata = {
   title: "Create your account",
-  description: "Create a free Formcraft account and publish your first form in minutes.",
+  description: "Create a free NoFormCode account and publish your first form in minutes.",
 };
 
 export default async function RegisterPage() {

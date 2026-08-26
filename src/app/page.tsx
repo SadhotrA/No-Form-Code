@@ -93,7 +93,7 @@ export default async function LandingPage() {
             <span className="grid size-8 place-items-center rounded-lg bg-brand-600 text-white shadow-sm shadow-brand-600/30">
               <Shapes className="size-4.5" aria-hidden />
             </span>
-            <span className="text-[15px] font-semibold tracking-tight">Formcraft</span>
+            <span className="text-[15px] font-semibold tracking-tight">NoFormCode</span>
           </Link>
 
           <nav className="hidden items-center gap-7 text-[13.5px] font-medium text-slate-600 md:flex">
@@ -158,7 +158,7 @@ export default async function LandingPage() {
               </h1>
 
               <p className="mt-5 max-w-lg text-[16px] leading-relaxed text-slate-600 sm:text-[17px]">
-                Formcraft turns a blank canvas into a polished, publishable form — drag
+                NoFormCode turns a blank canvas into a polished, publishable form — drag
                 in the questions, style it to match your brand, share one link, and let
                 the responses analyse themselves.
               </p>
@@ -216,7 +216,7 @@ export default async function LandingPage() {
                   <span className="size-2.5 rounded-full bg-slate-300" />
                   <span className="size-2.5 rounded-full bg-slate-300" />
                   <span className="ml-3 hidden truncate rounded-md bg-white px-2.5 py-1 text-[11px] font-medium text-slate-400 ring-1 ring-slate-200 sm:block">
-                    formcraft.app/admin/forms/edit
+                    noformcode.app/admin/forms/edit
                   </span>
                 </div>
 
@@ -428,7 +428,7 @@ export default async function LandingPage() {
               <Shapes className="size-4" aria-hidden />
             </span>
             <span className="text-[14px] font-semibold tracking-tight text-slate-900">
-              Formcraft
+              NoFormCode
             </span>
           </div>
 
@@ -454,7 +454,7 @@ export default async function LandingPage() {
           </nav>
 
           <p className="text-[12.5px] text-slate-400">
-            &copy; {new Date().getFullYear()} Formcraft
+            &copy; {new Date().getFullYear()} NoFormCode
           </p>
         </div>
       </footer>

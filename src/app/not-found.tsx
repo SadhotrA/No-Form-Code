@@ -57,7 +57,7 @@ export default function NotFound() {
         </div>
 
         <p className="mt-5 text-center text-[13px] text-slate-400">
-          Built with <span className="font-semibold text-slate-500">Formcraft</span>
+          Built with <span className="font-semibold text-slate-500">NoFormCode</span>
         </p>
       </div>
     </main>

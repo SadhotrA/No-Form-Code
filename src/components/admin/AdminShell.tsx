@@ -79,7 +79,7 @@ export function AdminShell({
               <Layers className="size-4.5" aria-hidden />
             </span>
             <span className="text-[15px] font-semibold tracking-tight text-slate-900">
-              Formcraft
+              NoFormCode
             </span>
           </Link>
 

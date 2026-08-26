@@ -12,7 +12,7 @@ interface PageParams {
   params: Promise<{ slug: string }>;
 }
 
-const FALLBACK_DESCRIPTION = "Fill in this form powered by Formcraft.";
+const FALLBACK_DESCRIPTION = "Fill in this form powered by NoFormCode.";
 
 export async function generateMetadata({ params }: PageParams): Promise<Metadata> {
   const { slug } = await params;
@@ -110,7 +110,7 @@ export default async function PublicFormPage({ params }: PageParams) {
           </div>
 
           <p className="ncf-footer-note">
-            Built with <strong>Formcraft</strong>
+            Built with <strong>NoFormCode</strong>
           </p>
         </div>
       </main>

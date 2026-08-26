@@ -40,7 +40,7 @@ const COPY = {
     subtitle: "Sign in to keep building and to see your latest responses.",
     submit: "Sign in",
     endpoint: "/api/auth/login",
-    switchText: "New to Formcraft?",
+    switchText: "New to NoFormCode?",
     switchCta: "Create an account",
     switchHref: "/register",
   },
@@ -117,7 +117,7 @@ export function AuthForm({ mode }: { mode: "login" | "register" }) {
             <Shapes className="size-4.5" aria-hidden />
           </span>
           <span className="text-[15px] font-semibold tracking-tight text-slate-900">
-            Formcraft
+            NoFormCode
           </span>
         </Link>
       </div>

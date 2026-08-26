@@ -30,7 +30,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
         </main>
 
         <p className="relative px-5 pb-6 text-center text-[12px] text-slate-400 sm:px-8">
-          &copy; {new Date().getFullYear()} Formcraft
+          &copy; {new Date().getFullYear()} NoFormCode
         </p>
       </div>
 
@@ -50,7 +50,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
             <Shapes className="size-5" aria-hidden />
           </span>
           <span className="text-[17px] font-semibold tracking-tight text-white">
-            Formcraft
+            NoFormCode
           </span>
         </div>
 

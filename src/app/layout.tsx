@@ -32,8 +32,8 @@ const jetbrains = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Formcraft — build forms without code",
-    template: "%s · Formcraft",
+    default: "NoFormCode — build forms without code",
+    template: "%s · NoFormCode",
   },
   description:
     "Design, publish and analyse fully customisable forms without writing a line of code.",

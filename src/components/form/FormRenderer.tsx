@@ -336,7 +336,7 @@ export function FormRenderer({
     >
       {card}
       <p className="ncf-footer-note">
-        Built with <strong>Formcraft</strong>
+        Built with <strong>NoFormCode</strong>
       </p>
     </div>
   );

@@ -5,7 +5,7 @@ import { getSessionUser } from "@/lib/auth";
 
 export const metadata: Metadata = {
   title: "Sign in",
-  description: "Sign in to your Formcraft workspace to build forms and read responses.",
+  description: "Sign in to your NoFormCode workspace to build forms and read responses.",
 };
 
 export default async function LoginPage() {
