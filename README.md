@@ -1,6 +1,6 @@
-# Formcraft
+# No Form Code
 
-Formcraft is a no-code form builder: an admin signs in, drags fields onto a canvas, restyles the form
+No Form Code is a no-code form builder: an admin signs in, drags fields onto a canvas, restyles the form
 until it matches their brand, publishes it at a public `/f/<slug>` link, and then reads the answers
 back as charts, a response table, or a CSV/JSON download. Everything — field definitions, theme,
 settings and responses — lives in MongoDB, and no part of building or customising a form requires
@@ -77,7 +77,7 @@ Requires **Node.js 20.9+** and a MongoDB database (local `mongod` or a free Mong
    openssl rand -base64 32
    ```
 
-   `MONGODB_URI` can be `mongodb://127.0.0.1:27017/formcraft` for a local server, or the
+   `MONGODB_URI` can be `mongodb://127.0.0.1:27017/noformcode` for a local server, or the
    `mongodb+srv://…` string from Atlas.
 
 4. **(Optional) Seed demo data** — creates an admin plus five published forms with a month of responses
@@ -86,7 +86,7 @@ Requires **Node.js 20.9+** and a MongoDB database (local `mongod` or a free Mong
    npm run seed
    ```
 
-   It prints the credentials it created (default `admin@formcraft.dev` / `formcraft123`).
+   It prints the credentials it created (default `admin@noformcode.dev` / `noformcode123`).
    Re-run with `npm run seed -- --force` to wipe that account's forms and start over.
 
 5. **Start the dev server**
@@ -104,12 +104,12 @@ Requires **Node.js 20.9+** and a MongoDB database (local `mongod` or a free Mong
 
 | Variable | Required | Default | Purpose |
 | --- | --- | --- | --- |
-| `MONGODB_URI` | Yes | — | MongoDB connection string. The database name may be part of the URI path (`…/formcraft`). |
+| `MONGODB_URI` | Yes | — | MongoDB connection string. The database name may be part of the URI path (`…/noformcode`). |
 | `MONGODB_DB` | No | from the URI | Overrides the database name, useful when the URI has none. |
 | `AUTH_SECRET` | Yes | — | HS256 signing key for the session JWT. Must be at least 16 characters; use 32+. Generate with `openssl rand -base64 32`. |
 | `NEXT_PUBLIC_APP_URL` | No | `http://localhost:3000` | Base URL used to build shareable `/f/<slug>` links. |
-| `SEED_ADMIN_EMAIL` | No | `admin@formcraft.dev` | Demo admin created by `npm run seed`. |
-| `SEED_ADMIN_PASSWORD` | No | `formcraft123` | Password for that demo admin (min 8 characters). |
+| `SEED_ADMIN_EMAIL` | No | `admin@noformcode.dev` | Demo admin created by `npm run seed`. |
+| `SEED_ADMIN_PASSWORD` | No | `noformcode123` | Password for that demo admin (min 8 characters). |
 | `SEED_ADMIN_NAME` | No | `Demo Admin` | Display name for that demo admin. |
 
 `.env.local` is git-ignored; `.env.example` is the committed template.
